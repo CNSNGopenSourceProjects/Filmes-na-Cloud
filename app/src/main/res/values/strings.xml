@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Bolly Filmes</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="detalhe_activity_label">Detalhe</string>
+    <string name="settings_activity_label">Configurações</string>
+
+
+    <!-- Opções do menu -->
+    <string name="menu_atualizar_label">Atualizar</string>
+    <string name="menu_config_label">Configurações</string>
+
+    <!-- Preferências de Ordem -->
+    <string name="prefs_ordem_key">ordem</string>
+    <string name="prefs_ordem_title">Ordem</string>
+    <string name="prefs_ordem_default_value">popular</string>
+
+    <string-array name="prefs_ordem_values">
+        <item>popular</item>
+        <item>top_rated</item>
+    </string-array>
+
+    <string-array name="prefs_ordem_entries">
+        <item>Populares</item>
+        <item>Melhores Avaliados</item>
+    </string-array>
+
+    <!-- Preferências de idioma -->
+    <string name="prefs_idioma_key">idioma</string>
+    <string name="prefs_idioma_title">Idioma</string>
+    <string name="prefs_idioma_default_value">pt-BR</string>
+    <string name="pd_carregando_titulo">Carregando...</string>
+    <string name="pd_carregando_mensagem">Por favor, aguarde</string>
+
+    <string-array name="prefs_idioma_values">
+        <item>pt-BR</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="prefs_idioma_entries">
+        <item>Português</item>
+        <item>Inglês</item>
+    </string-array>
+
+    <!-- Account manager -->
+    <string name="sync_account_type">bollyfiles.conseng.com.br</string>
+    <string name="content_authority">br.com.conseng.bollyfilmes</string>
+
+    <!-- Preferências de notificação -->
+    <string name="prefs_notif_filmes_titulo">Notificações</string>
+    <string name="prefs_notif_filmes_off">Desabilitado</string>
+    <string name="prefs_notif_filmes_on">Habilitado</string>
+    <string name="prefs_notif_filmes_default">true</string>
+    <string name="prefs_notif_filmes_key">pref_notify_filmes</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="popular"
+        android:entries="@array/prefs_ordem_entries"
+        android:entryValues="@array/prefs_ordem_values"
+        android:key="@string/prefs_ordem_key"
+        android:title="@string/prefs_ordem_title" />
+
+    <ListPreference
+        android:defaultValue="pt-BR"
+        android:entries="@array/prefs_idioma_entries"
+        android:entryValues="@array/prefs_idioma_values"
+        android:key="@string/prefs_idioma_key"
+        android:title="@string/prefs_idioma_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="@string/prefs_notif_filmes_default"
+        android:key="@string/prefs_notif_filmes_key"
+        android:summaryOff="@string/prefs_notif_filmes_off"
+        android:summaryOn="@string/prefs_notif_filmes_on"
+        android:title="@string/prefs_notif_filmes_titulo" />
+</PreferenceScreen>
